@@ -1,0 +1,69 @@
+﻿@font-face {
+    font-family: 'IBMPlexSans-Bold';
+    src: url('fonts/IBMPlexSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IBMPlexSans-BoldItalic';
+    src: url('fonts/IBMPlexSans-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IBMPlexSans-ExtraLight';
+    src: url('fonts/IBMPlexSans-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IBMPlexSans-ExtraLightItalic';
+    src: url('fonts/IBMPlexSans-ExtraLightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IBMPlexSans-Italic';
+    src: url('fonts/IBMPlexSans-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IBMPlexSans-Light';
+    src: url('fonts/IBMPlexSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IBMPlexSans-LightItalic';
+    src: url('fonts/IBMPlexSans-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IBMPlexSans-Medium';
+    src: url('fonts/IBMPlexSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IBMPlexSans-MediumItalic';
+    src: url('fonts/IBMPlexSans-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IBMPlexSans-Regular';
+    src: url('fonts/IBMPlexSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IBMPlexSans-SemiBold';
+    src: url('fonts/IBMPlexSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IBMPlexSans-SemiBoldItalic';
+    src: url('fonts/IBMPlexSans-SemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IBMPlexSans-Thin';
+    src: url('fonts/IBMPlexSans-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IBMPlexSans-ThinItalic';
+    src: url('fonts/IBMPlexSans-ThinItalic.ttf') format('truetype');
+}

@@ -1,0 +1,186 @@
+﻿body {
+    background-image: linear-gradient(#010a21, #1a1453, #122042);
+    background-attachment: fixed;
+    font-family: 'IBMPlexSans-Regular';
+    color: white;
+}
+
+header {
+    margin-top: 4em;
+}
+
+#cvSection p, #cvSection div {
+    display: inline-block;
+    margin-right: 0.5em;
+
+}
+
+#container {
+    width: 81vw;
+    margin: 0 auto;
+    margin-top: 11em;
+}
+
+#contant {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+h1 {
+    line-height: 0vw;
+}
+
+h3 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.backgroundText {
+    font-family: 'IBMPlexSans-Bold';
+    font-size: 6em;
+    opacity: 0.1;
+    line-height: 0vw;
+}
+
+.explanationParagraphs {
+    margin-top: 2.2em;
+}
+
+.titleDivs {
+    width: fit-content;
+    margin: 5em auto 0 auto;
+}
+
+.readMore {
+    display: none;
+}
+
+.button {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+    .button a {
+        border: 1.5px solid white;
+        padding: 1vh 1.9vh;
+        cursor: pointer;
+        color: white;
+        text-decoration: none;
+    }
+
+        .button a:hover {
+            background-color: white;
+            color: #000C2D;
+        }
+
+.proj {
+    margin-bottom: 8em;
+}
+
+    .proj:after {
+        content: "";
+        display: block;
+        margin: 0 auto;
+        padding-top: 130px;
+        width: 6%;
+        border-bottom: 1.5px solid white;
+    }
+
+.projects {
+    margin-top: 4em;
+}
+
+    .projects .readMoreBtn, #downloadProject2 {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+
+.mainImgs {
+    width: 54vh;
+    display: inline-block;
+    margin-right: 3em;
+    margin-bottom: 2em;
+}
+
+img {
+    width: 100%;
+}
+
+.mainP {
+    display: inline-block;
+    min-width: 21em;
+    max-width: 38em;
+    vertical-align: top;
+}
+
+#project3 .mainP {
+    display: block;
+}
+
+.wireframes {
+    display: none;
+    margin-top: 3em;
+}
+
+    .wireframes div, .project3examples {
+        margin-right: 2vw;
+        width: 20em;
+        display: inline-block;
+        margin-bottom: 2em;
+    }
+
+
+        .wireframes div:after {
+            content: "";
+            display: block;
+            margin: 0 auto;
+            padding-top: 20px;
+            width: 26%;
+            border-bottom: 1.5px solid white;
+        }
+
+.orange {
+    color: #FF9300;
+}
+
+.yellow {
+    color: #FFFF00;
+}
+
+
+/*project2*/
+
+.project2images {
+    text-align: center;
+}
+
+    .project2images div {
+        width: 28em;
+        display: inline-block;
+        margin-right: 2em;
+        margin-bottom: 2em;
+    }
+
+
+/*footer*/
+#footer{
+    text-align:center;
+}
+
+/*arrow*/
+i {
+    border: solid white;
+    border-width: 0 1.5px 1.5px 0;
+    padding: 7px;
+    width: fit-content;
+    margin: 0 auto;
+    display: block;
+    margin-top: 1em;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
