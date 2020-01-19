@@ -21,10 +21,6 @@ header {
     margin-top: 11em;
 }
 
-#contant {
-    width: fit-content;
-    margin: 0 auto;
-}
 
 h1 {
     line-height: 0vw;
@@ -98,7 +94,7 @@ h3 {
 
 
 .mainImgs {
-    width: 54vh;
+    width: 20em;
     display: inline-block;
     margin-right: 3em;
     margin-bottom: 2em;
@@ -157,7 +153,7 @@ img {
 }
 
     .project2images div {
-        width: 28em;
+        width: 20em;
         display: inline-block;
         margin-right: 2em;
         margin-bottom: 2em;
