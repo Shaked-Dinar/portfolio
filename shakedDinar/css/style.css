@@ -111,7 +111,7 @@ img {
     vertical-align: top;
 }
 
-#project3 .mainP {
+#project3 .mainP, #project4 .mainP {
     display: block;
 }
 
