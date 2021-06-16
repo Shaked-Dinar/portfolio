@@ -20,7 +20,9 @@ header {
     margin-top: 11em;
 }
 
-
+.boldText{
+    font-family:'IBMPlexSans-SemiBold'
+}
 h1 {
     line-height: 0vw;
 }
@@ -28,6 +30,10 @@ h1 {
 h3 {
     text-align: center;
     margin: 0 auto;
+}
+h4{
+    font-weight:100;
+    font-family:'IBMPlexSans-SemiBold'
 }
 
 .backgroundText {
