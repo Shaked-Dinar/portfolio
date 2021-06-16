@@ -93,7 +93,7 @@ h3 {
 
 
 .mainImgs {
-    width: 54vh;
+    width: 28vw;
     display: inline-block;
     margin-right: 3em;
     margin-bottom: 2em;
@@ -114,32 +114,18 @@ img {
     display: block;
 }
 
-.wireframes {
-    display: none;
-    margin-top: 3em;
+.project3examples {
+    margin-right: 2vw;
+    /*width: 20em;*/
+    display: inline-block;
+    margin-bottom: 2em;
+    vertical-align: top;
 }
 
-    .wireframes div, .project3examples {
-        margin-right: 2vw;
-        width: 20em;
-        display: inline-block;
-        margin-bottom: 2em;
-        vertical-align: top;
+    .project3examples img {
+        max-height: 242px;
+        width: auto;
     }
-
-        .project3examples img {
-            max-height: 242px;
-            width: auto;
-        }
-
-        .wireframes div:after {
-            content: "";
-            display: block;
-            margin: 0 auto;
-            padding-top: 20px;
-            width: 26%;
-            border-bottom: 1.5px solid white;
-        }
 
 .orange {
     color: #FF9300;
@@ -157,7 +143,7 @@ img {
 }
 
     .project2images div {
-        width: 28em;
+        width: 28vw;
         display: inline-block;
         margin-right: 2em;
         margin-bottom: 2em;
@@ -170,23 +156,6 @@ img {
     padding-bottom: 50px;
 }
 
-/*arrow*/
-i {
-    border: solid white;
-    border-width: 0 1.5px 1.5px 0;
-    padding: 7px;
-    width: fit-content;
-    margin: 0 auto;
-    display: block;
-    margin-top: 1em;
-}
-
-.down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-}
-
-
 .project4examples {
     margin-right: 2vw;
     width: 20em;
@@ -194,24 +163,55 @@ i {
     margin-bottom: 2em;
 }
 
-#illus1 img{
+#illus1 img {
     max-height: 201px;
     width: auto;
 }
-#illus3 img{
+
+#illus3 img {
     max-width: 293px;
 }
 /*/////////////*/
 input[type=checkbox] {
-  display: none;
+    display: none;
 }
 
 .container1 img {
-  transition: transform 0.25s ease;
-  cursor: zoom-in;
+    transition: transform 0.25s ease;
+    cursor: zoom-in;
 }
 
 input[type=checkbox]:checked ~ label > img {
-  transform: scale(2.2);
-  cursor: zoom-out;
+    transform: scale(2.2);
+    cursor: zoom-out;
+}
+
+@media only screen and (max-width: 600px) {
+    .mainImgs {
+        width: 80vw;
+    }
+
+    .mainP {
+        min-width: auto;
+        max-width: none;
+    }
+
+    .project2images div {
+        width: 80vw;
+    }
+
+    .project3examples img {
+        max-height: none;
+        width: 100%;
+    }
+
+    .project4examples {
+        width: 80vw;
+    }
+
+        .project4examples img {
+            max-height: none !important;
+            width: 100% !important;
+            max-width: none !important;
+        }
 }
